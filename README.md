@@ -1,7 +1,7 @@
 # dynamic_spectrum_cartography
 This repository includes codes for proposed approaches and all the baselines of paper 10.1109/TSP.2025.3531872: Dynamic Spectrum Cartography: Reconstructing Spatial-Spectral-Temporal Radio Frequency Map via Tensor Completion.
 
-Get started by simply running **Dynamic_SC.m**. This will return a visualization result together with reconstruction errors.
+Get started by simply running **Dynamic_SC.m**. This will return a visualization result together with reconstruction errors, under a ray-tracing scenario.
 
 ![Example](Example.png)
 
