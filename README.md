@@ -5,8 +5,10 @@ Get started by simply running **Dynamic_SC.m**. This will return a visualization
 
 ![Example](Example.png)
 
-To reproduce more results, please download dataset 'Param_R8_sigma8_K64_T600_v0.1.mat' at https://drive.google.com/file/d/1Yi_7MrMLGWe_1Br9JQPOXhnVivjY62jE/view?usp=sharing
-and 'Param_R8_sigma8_K64_T600_v0.01.mat' at https://drive.google.com/file/d/1hxxoUhHVFKmSZKtIRBWlkoeCxOtfJIYR/view?usp=sharing
+To reproduce more results, please download dataset 'Param_R8_sigma8_K64_T600_v0.1.mat' at https://drive.google.com/file/d/1Yi_7MrMLGWe_1Br9JQPOXhnVivjY62jE/view?usp=sharing, 
+and 'Param_R8_sigma8_K64_T600_v0.01.mat' at https://drive.google.com/file/d/1hxxoUhHVFKmSZKtIRBWlkoeCxOtfJIYR/view?usp=sharing.
+
+Also try to customize a scenario using **Dynamic_SC_Customize**.  
 
 
 
