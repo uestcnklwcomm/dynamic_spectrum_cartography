@@ -7,6 +7,9 @@ Get started by simply running **Dynamic_SC.m**. This will return a visualization
 
 To reproduce more results, please download dataset 'Param_R8_sigma8_K64_T600_v0.1.mat' at https://drive.google.com/file/d/1Yi_7MrMLGWe_1Br9JQPOXhnVivjY62jE/view?usp=sharing
 
+You can also configure your own experiment by running **Dynamic_SC_Customize.m**
+
+
 
 If you find these codes useful for your research, please consider citing
 ```bibtex
