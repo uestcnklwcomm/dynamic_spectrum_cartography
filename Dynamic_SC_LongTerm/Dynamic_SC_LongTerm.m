@@ -1,7 +1,7 @@
 clc; clear; close all;
 
 
-load('Param_R8_sigma8_K64_T600_v0.1_var.mat');
+load('Param_sigma8_K64_T600_v0.1_LT.mat');
 
 %% Scenario configurations
 [Config.length,Config.width,Config.freq,Config.time] = size(X4DT);
