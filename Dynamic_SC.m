@@ -118,6 +118,7 @@ NMSE.LL1TPS = zeros(1,Config.time);
 NMSE.NMFTPS = zeros(1,Config.time);
 NMSE.PlainTPS = zeros(1,Config.time);
 NMSE.CPDOL = zeros(1,Config.time);
+NMSE.TOUCAN = zeros(1,Config.time);
 NMSE.IncreDSC = zeros(1,Config.time);
 NMSE.BatchDSC = zeros(1,Config.time);
 
