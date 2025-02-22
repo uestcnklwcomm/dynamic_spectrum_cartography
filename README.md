@@ -10,6 +10,8 @@ and 'Param_R8_sigma8_K64_T600_v0.01.mat' at https://drive.google.com/file/d/1hxx
 
 Also try to customize a scenario using **Dynamic_SC_Customize**, where a radio map generator is offered. 
 
+Directory **Dynamic_SC_LongTerm** offers the codes of the proposed IncreDSC algorithm under long-term scenario, where the activated emitters change over time. 
+
 
 
 If you find these codes useful for your research, please consider citing
