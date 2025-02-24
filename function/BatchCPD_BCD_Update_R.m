@@ -50,7 +50,7 @@ for iitt = 1:iter
         ck = (cksparse*cksparse' + mu*eye(Rrank) )\(cksparse*Y3(:,ki) );
         C(ki,:) = ck';
     end
-   C(C<svalue) = svalue;
+    C(C<svalue) = svalue;
     %% update A;
     aiCB = kr(C,B)';
     for ii = 1:I1
@@ -62,7 +62,7 @@ for iitt = 1:iter
         A(ii,:) = ai';
 
     end
-   A(A<svalue) = svalue;
+    A(A<svalue) = svalue;
     %% update B
     bjCA = kr(C,A)';
 
@@ -75,7 +75,7 @@ for iitt = 1:iter
         B(jj,:) = bj';
         
     end
-   B(B<svalue) = svalue;
+    B(B<svalue) = svalue;
 end
 
 
