@@ -35,13 +35,6 @@ function outputConfig = SamplingPattern(Config)
             alg_mask = zeros(I,J);
             
             
-            
-            % reg_length = sqrt(F);
-            % reg_width = 2;
-
-
-            % rand_row = randperm(I,reg_length);
-            % rand_col = randperm(J,reg_width);
 
             row_comb = nchoosek(1:I,2);
             col_comb = nchoosek(1:J,2);
@@ -55,16 +48,10 @@ function outputConfig = SamplingPattern(Config)
             end
 
             
-            % outputConfig.alg_row = rand_row;
-            % outputConfig.alg_col = rand_col;
-            % 
-            % alg_mask(rand_row,rand_col) = 1;
             
             %% sampling pattern for algebraically initializing factor A and B
 
             if isfield(Config,'AlgInit') && Config.AlgInit
-
-                
 
                 coupled_mask = zeros(I,J);
                 Avail_col_idx = 1:J;
